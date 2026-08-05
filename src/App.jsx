@@ -62,12 +62,9 @@ export default function App() {
   return (
     <div className="app">
       <header className="brand-header">
-        <svg className="brand-mark" viewBox="0 0 34 22" xmlns="http://www.w3.org/2000/svg">
-          <polygon points="0,22 6,22 13,6 10,0" />
-          <polygon points="10,22 16,22 21,9 18,3" />
-          <polygon points="20,22 26,22 29,15 26,9" />
+        <svg className="brand-mark" viewBox="100 100 50.07 31.439" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 150.07 131.439 L 131.925 100 L 122.206 105.606 L 137.112 131.439 L 150.07 131.439 Z M 132.781 131.439 L 120.797 110.692 L 111.078 116.298 L 119.823 131.439 L 132.781 131.439 Z M 109.718 121.401 L 115.509 131.439 L 102.551 131.439 L 100 127.007 L 109.718 121.401 Z" />
         </svg>
-        <span className="brand-wordmark">adidas</span>
         <span className="brand-divider" />
         <h1 className="brand-title">Bubble Plan Digital — POC 2D</h1>
       </header>
